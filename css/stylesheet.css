@@ -1,20 +1,20 @@
 body{
-    background-color: #FFFF00;
+    background-color: #5d84d8;
 }
 
 h1{
-    color: #FF0000;
+    color: #e8d04c;
 }
 
 h2{
-    color: #0000FF;
+    color: #260e61;
 }
 
 p{
-    color: #808080;
+    color: #000000;
 }
 
 img{
-    width:  400px;
-    height: 500px;
+    width:  250px;
+    height: 225px;
 }
