@@ -6,6 +6,12 @@ h1{
     color: #e8d04c;
 }
 
+#title{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
 h2{
     color: #260e61;
 }
@@ -17,4 +23,18 @@ p{
 img{
     width:  250px;
     height: 225px;
+    clear: both;
+    float: left;
+}
+
+article{
+    clear: both;
+}
+
+p{
+    clear: both;
+}
+
+footer{
+    clear: both;
 }
