@@ -1,9 +1,10 @@
 body{
-    background-color: #5d84d8;
+    background-color: #1B2838;
 }
 
 h1{
-    color: #e8d04c;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 h2{
@@ -12,9 +13,14 @@ h2{
 
 p{
     color: #000000;
+    margin: auto;
 }
 
 img{
     width:  250px;
     height: 225px;
+}
+
+#review {
+    background-color: #2A475E;
 }
