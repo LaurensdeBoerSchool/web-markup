@@ -1,26 +1,88 @@
-body{
+@import url('https://googleapis.com');
+
+html, body{
     background-color: #1B2838;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 h1{
     color: #FFFFFF;
     text-align: center;
+    font-family: "Press Start 2P", cursive;
 }
 
 h2{
-    color: #260e61;
+    color: #54A3F4;
+    size: 20px;
 }
 
 p{
     color: #000000;
+    size: 20px;
+}
+
+header{
+    background-color: #171A21;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.main{
+    width: 75%;
     margin: auto;
 }
 
-img{
+.main p,ul{
+    color: #54A3F4;
+}
+
+
+
+#mainImg{
+    width: 100%;
+    height: 460px;
+}
+
+#reviews{
+    margin-top: 61px;
+    margin-bottom: 61px;
+}
+
+#reviews img{
     width:  250px;
+    height: 225px;
+    float: left;
+}
+
+#reviews p{
+    color: #66C0F4; 
+}
+
+#reviews section{
+    background-color: #2A475E;
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-bottom: 71px;
     height: 225px;
 }
 
-#review {
-    background-color: #2A475E;
+button{
+    background-color: #55C0F4;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:100px;
+    padding-right:100px;
+    border-style: solid;
+    border-color: #0A101D;
+    border-width: 3px;
 }
+
+footer{
+    background-color: #171A21;
+    margin:0px;
+}
+
+
+
