@@ -10,120 +10,130 @@
         />
         <link 
             rel="icon"
-            href="img/construction.png"
+            href="img/construction.png" 
             sizes="16x16"
             type="image/png"
-        />
-        <!-- eigenlijk ogg voor audio -->
+        /> <!-- favicon als naam straks met .ico -->
+        <!-- ogg voor audio -->
     </head>
-    <body>
+    <body class="grid-container">
         <header>
             <nav>
                 <ul>
-                    <li>
-                        <a href="index.html">home</a> <!-- nu nog tekst later foto <img src="logo.png" button= misschien -->
+                    <li class="nav1">
+                        <a href="index.html"><img src="img/Logo.png"/></a> <!-- nu nog tekst later foto <img src="logo.png" button= misschien -->
                     </li>
 
-                    <li>
+                    <li class="nav2">
                         <a href="FPS.html">FPS</a>
                     </li>
 
-                    <li>
+                    <li class="nav3">
                         <a href="Metroidvania.html">Metroidvania</a>
                     </li>
 
-                    <li>
+                    <li class="nav4">
                         <a href="Sandbox.html">Sandbox</a>
                     </li>
 
-                    <li>
+                    <li class="nav5">
                         <a href="Roguelike.html">Roguelike</a>
                     </li>
                     
-                    <li>
-                        <a href="contact.html">Contact</a>
+                    <li class="nav6">
+                        <a href="contact.html" class="contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section class="main">
-            <section>
-                <img id="mainImg" src="./img/Home_img.png" alt="Construction worker stickfigure"/>
-                <h1>Title</h1>
+        
+            <section id="hero">
+                <img id="mainImg" src="./img/Hero.png" alt="Construction worker stickfigure"/>
+                <h1>GameSpark</h1>
             </section>
-            
             <article> <!-- &; TEKST VERANDEREN!!! -->
-                <p><h2>Welcome to Game Reviews&comma;</h2></p>
-                <p>in this website you can find game reviews to find new games to play!</p>
-                <p>In this website there are different genres of games for you to explore and view the reviews of these games. With this look into the game you can find out if you want to play these games! This website has games from Call of Duty to Hades.</p>
+                <p><h2>Welcome to <strong>GameSpark</strong></h2></p>
+                <p>In this website you can find game reviews to find new games to play&excl;</p>
+                <p>We have different genres of games for you to explore and view the reviews of these games&period; With this look into the game you can find out if you want to play these games&excl; This website has games from Call of Duty to Hades&period;</p>
+                <p>Each game offer a unique experience&comma; from intense action and challenging adventures to creative worlds full of possibilities&period; Our reviews highlight what makes each game special and what you can expect when playing them&period;</p>
+                <p>Be sure to check these games out&excl; These games are a great way to learn and understand the genres to see if you&rsquo;re interested&period; </p>
+            </article>
+            <aside>
                 <p>
-                    Current genres:
+                    <h3>Genres&colon;</h3>
                     <ul>
                         <li>
-                            First Person Shooter (FPS)
+                            <p>First Person Shooter (FPS)</p>
+                            <p class="genre">Games where you view the world through your character&rsquo;s eyes and primarily use guns or ranged weapons to fight&period;</p>
                         </li>
-                            
                         <li>
-                            Metroidvania
+                            <p>Metroidvania</p>
+                            <p class="genre">Exploration-focused games featuring interconnected locations&comma; where you unlock new abilities to open previously inaccesible areas to discover new paths&period;</p>
                         </li>
-
                         <li>
-                            Sandbox
+                            <p>Sandbox</p>
+                            <p>Games that offer freedom to explore&comma; build&comma; experiment&comma; and create your own goals with minimal restrictions&period;</p>
                         </li>
-
                         <li>
-                            Roguelike
+                            <p>Roguelike</p>
+                            <p>Games featuring procedurally generated levels&comma; permanent death&comma; and replayability&comma; where each run offers a different experience&period;</p>
                         </li>
                     </ul>
                 </p>
-                <p>Be sure to check these games out! These games are a great way to learn and understand the genres to see if you're interested. </p>
-            </article>
+            </aside>
 
-            <section id="reviews">
-                <form><button href="FPS.html">FPS</button></form>
-                <section class="review">
-                    <img class="reviewImg" src="./img/CoD.png" alt="Construction worker stickfigure"/>
-                    <h3>Call of Duty: Modern Warfare</h3> <!-- ALLE TEKST NOG &; dingen maken -->
-                    <p>'"Call of Duty: Modern Warfare" is a spectacular game that redefines the series thanks to incredible gunplay, photorealistic graphics, and an intense, memorable campaign. A true shooter masterpiece.' - TI SDRUMO</p>
+            <section class="reviews">
+                <h2>First Person Shooter</h2>
+                <section>
+                    <img src="./img/CoD.png" alt="Call of Duty: Modern Warfare gameplay" title="CoD"/> 
+                    <article>
+                        <h3>Call of Duty&colon; Modern Warfare</h3>
+                        <p class="consoles">PC&comma; PS4 and Xbox One</p>
+                        <p>Call of Duty&colon; Modern Warfare is an amazing first-person shooter that redefines the series through amazing gunplay&comma; photorealistic graphics&comma; beautiful sound design&comma; and an intense&comma; memorable campaign&period; A true shooter masterpiece&period;</p>
+                        <p>I had an amazing time playing through the campaign and I keep playing the multiplayer for hours at a time&period; The multiplayer lacks a bit of balance&comma; but it is a fun game mode&period;</p>
+                        <p>I recommend this game to anyone who enjoys action&dash;heavy games&period;</p>
+                    </article>
                 </section>
-                <button href="Metroidvania.html">Metroidvania</button>
-                <section class="review">
-                    <img class="reviewImg" src="./img/HK.png" alt="Construction worker stickfigure"/>
-                    <h3>Hollow Knight</h3> <!-- ALLE TEKST NOG &; dingen maken -->
-                    <p>'A game that is challenging, atmospheric, and beautiful in character design. The soundtrack is remarkable and reflects the air with such an artful design. Definitely a must-play for everybody.' - RogerO.Thornhill</p>
+                <form action="FPS.html" method="post"><button>See more...</button></form>
+                <h2>Metroidvania</h2>
+                <section>
+                    <img src="./img/HK.png" alt="Hollow Knight gameplay" title="Hollow Knight"/>
+                    <article>
+                        <h3>Hollow Knight</h3> 
+                        <p class="consoles">PC&comma; Nintendo Switch&comma; PS and Xbox</p>
+                        <p>Hollow Knight is a beautiful game with amazing sound design and an adorable art style&period; The movement feels great and it is very fun&period; This was my second ever Metroidvania i have played and completed&period; &lpar;not 114&percnt;&comma; but i will try&rpar;</p>
+                        <p>The gameplay is great and with every unlocked ability it expands where you are able to go and gives a refreshing and unique way of playing the game&period;</p>
+                        <p>The bosses can be difficult at times&comma; but while playing through the game you can see yourself become better at parkouring and fighting bosses&period; I can&rsquo;t recommend this game enough to people who enjoy hard games&comma; platformers&comma; and metroidvanias&period;</p>
+                    </article>
                 </section>
-                <button href="Sandbox.html">Sandbox</button>
-                <section class="review">
-                    <img class="reviewImg" src="./img/construction.jpg" alt="Construction worker stickfigure"/>
-                    <h3>Call of Duty: Modern Warfare</h3> <!-- ALLE TEKST NOG &; dingen maken -->
-                    <p>'"Call of Duty: Modern Warfare" is a spectacular game that redefines the series thanks to incredible gunplay, photorealistic graphics, and an intense, memorable campaign. A true shooter masterpiece.' - TI SDRUMO</p>
+                <form action="Metroidvania.html" method="post"><button>See more...</button></form>
+                <h2>Sandbox</h2>
+                <section>
+                    <img src="./img/construction.jpg" alt="Construction worker stickfigure"/>
+                    <article>
+                    <h3>Minecraft</h3> 
+                        <p class="consoles">PC&comma; Nintendo Switch&comma; Wii U&comma; PS and Xbox</p>
+                        <p>Minecraft is an amazing sandbox survival game where you can express your creativity&period; With the simple but beautiful graphics&comma; the game offer endless possibilities for exploration or building&period; You can build gorgeous builds&comma; explore a randomly generated world and even fight a few bosses&period; Whether you prefer to play alone or with friends&comma; Minecraft always has something fun to offer&period;</p>
+                        <p>It&rsquo;s a great game because of its freedom and possibilities for creativity&period; Every world and playthrough is a unique experience&comma; which is why Minecraft is still so popular and fun after all this time&period; I recommend anyone that has never played Minecraft to try the game out&period;</p>
+                    </article>
                 </section>
-                <button href="Roguelike.html">Roguelike</button>
-                <section class="review">
-                    <img class="reviewImg" src="./img/construction.jpg" alt="Construction worker stickfigure"/>
-                    <h3>Call of Duty: Modern Warfare</h3> <!-- ALLE TEKST NOG &; dingen maken -->
-                    <p>'"Call of Duty: Modern Warfare" is a spectacular game that redefines the series thanks to incredible gunplay, photorealistic graphics, and an intense, memorable campaign. A true shooter masterpiece.' - TI SDRUMO</p>
+                <form action="Sandbox.html" method="post"><button>See more...</button></form>
+                <h2>Roguelike</h2>
+                <section>
+                    <img src="./img/construction.jpg" alt="Construction worker stickfigure"/>
+                    <article>
+                        <h3>Hades</h3>
+                        <p class="consoles">PC&comma; Nintendo Switch&comma; PS&comma; Xbox and mobile</p>
+                        <p>Hades is an amazing rouglike action game with fast&hyphen;paced combat and a unique and beautiful art style&period; You play as the son of Hades&comma; Zagreus&comma; as you try to escape the Underworld&period; The game offers a wide variety of weapons&comma; abilities&comma; and upgrades&comma; making every attempt unique&period; The story is also very interesting&comma; with fun characters and great voice actiong&period;</p>
+                        <p>Although the game is pretty hard&comma; it&rsquo;s satisfying combat and rewarding progression makes every death feel worthwhile&period; Hades is an incredibly fun and smooth game&period; I recommend this game to anyone who enjoys action&dash;heavy games&period;</p>
+                    </article>
                 </section>
+                <form action="Roguelike.html" method="post"><button>See more...</button></form>
             </section>
-        </section>
-        <aside>
-            <p>lorem ipsum</p>
-        </aside>
         <footer>
-            &copy;2026
+            <p><em>&copy;2026 GameSpark.com</em></p>
+            <form action="contact.html" method="post"><a href="contact.html">Contact</a></form>
         </footer>
         <!-- ook proberen om &....; te gebruiken, bij echt alle tekens zoals : '' "" en ? !, waarschijnlijk ook , en mis .-->
     </body>
 </html>
-
-in this website you can find game reviews to find new games to play!
-
-In this website there are different genres of games for you to explore and view the reviews of these games. With this look into the game you can find out if you want to play these games! This website has games from Call of Duty to Hades.
-
-Current genres:
-First Person Shooter (FPS)
-Metroidvania
-Sandbox
-Roguelike
-
-Be sure to check these games out! These games are a great way to learn and understand the genres to see if you're interested. 

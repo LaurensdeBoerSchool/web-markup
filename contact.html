@@ -16,62 +16,61 @@
         />
         <!-- eigenlijk ogg voor audio -->
     </head>
-    <body>
+    <body class="grid-container-contact">
         <header>
             <nav>
                 <ul>
-                    <li>
-                        <a href="index.html">home</a> <!-- nu nog tekst later foto <img src="logo.png" button= misschien -->
+                    <li class="nav1">
+                        <a href="index.html"><img src="img/Logo.png"/></a> <!-- nu nog tekst later foto <img src="logo.png" button= misschien -->
                     </li>
 
-                    <li>
+                    <li class="nav2">
                         <a href="FPS.html">FPS</a>
                     </li>
 
-                    <li>
+                    <li class="nav3">
                         <a href="Metroidvania.html">Metroidvania</a>
                     </li>
 
-                    <li>
+                    <li class="nav4">
                         <a href="Sandbox.html">Sandbox</a>
                     </li>
 
-                    <li>
+                    <li class="nav5">
                         <a href="Roguelike.html">Roguelike</a>
                     </li>
                     
-                    <li>
-                        <a href="contact.html">Contact</a>
+                    <li class="nav6">
+                        <a href="contact.html" class="contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <p><h1>Contact</h1></p>
-        <p>lorem ipsum</p>
+       
         <article>
-            <p><h2>Contact(formulier)</h2></p>
-            <p>
-                <h3>Salutation</h3>
-                dhr <!-- Voor nu voorbeeld dit is de plek waar iets wordt ingevoerd met bijv php -->
-            </p>
-            <p>
-                <h3>Name</h3>
-                Robert Greymoor <!-- Voor nu voorbeeld dit is de plek waar iets wordt ingevoerd met bijv php -->
-            </p>
-            <p>
-                <h3>Email</h3>
-                Robert.Greymoor@gmail.com <!-- Voor nu voorbeeld dit is de plek waar iets wordt ingevoerd met bijv php -->
-            </p>
-            <p>
-                <h3>Phone number</h3>
-                +31 6 12341234 <!-- Voor nu voorbeeld dit is de plek waar iets wordt ingevoerd met bijv php -->
-            </p>
-            <p>
-                <h3>Question</h3>
-                How did you make this website <!-- Voor nu voorbeeld dit is de plek waar iets wordt ingevoerd met bijv php -->
-            </p>
-            
-            
+            <p><h2>Contact</h2></p>
+            <p>lorem ipsum blah blah blah geen andere consoles buiten pc, blah blah vul form in blah blah privacy geen uitdelen data en binnen 5 dagen antwoord</p>
+            <section id="form">
+                <form>
+                    <legend><h2>form:</h2></legend>
+                    
+                    <p><label for="sal">Salutation</label>
+                    <input type="radio" id="sal" name="sal" value="Dhr"> </p><!-- RADIO FORGOT -->
+
+                    <p><label for="name">Name &ast;</label>
+                    <input type="text" id="name" name="name" value="John Helldiver"> </p>
+
+                    <p><label for="email">Email &ast;</label>
+                    <input type="email" id="email" name="email" value="SweatLibertea@gmail.com"> </p>
+
+                    <p><label for="phone">Phone number</label>
+                    <input type="text" id="phone" name="phone" value="+31 6 12345678"> </p>
+
+                    <p><label for question>Question &ast;</label>
+                    <input type="text" id="question" name="question" value="How did you make this website?"> </p>
+                    <input type="submit" value="Submit"/>
+                </form>
+            </section>
         </article>
         <footer>
             &copy;2001
