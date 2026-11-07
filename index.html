@@ -2,7 +2,10 @@
 <html lang="en">
     <head> 
         <title>Assignment 3.2 | Inholland</title>
-        <meta name="test" description="Testing the meta" />
+        <meta charset="utf-8"/>
+        <meta name="Author" description="Laurens de Boer" />
+        <meta name="description" content="This is a game review website called GameSpark. In this website you can find game reviews to find new games to play. We have different genres of games for you to explore and view the reviews of these games. With this look into the game you can find out if you want to play these games. This website has games from Call of Duty to Hades "/>
+        <meta name="keywords" content="Game,Review,GameSpark,CallOfDuty,HollowKnight,Minecraft,Hades"/>
         <link
             rel="stylesheet"
             type="text/css"
@@ -10,9 +13,9 @@
         />
         <link 
             rel="icon"
-            href="img/construction.png" 
+            href="img/favicon.ico" 
             sizes="16x16"
-            type="image/png"
+            type="image/ico"
         /> <!-- favicon als naam straks met .ico -->
         <!-- ogg voor audio -->
     </head>
@@ -25,7 +28,7 @@
                     </li>
 
                     <li class="nav2">
-                        <a href="FPS.html">FPS</a>
+                        <a href="FPS.html">First Person Shooter</a>
                     </li>
 
                     <li class="nav3">
@@ -48,10 +51,12 @@
         </header>
         
             <section id="hero">
-                <img id="mainImg" src="./img/Hero.png" alt="Construction worker stickfigure"/>
-                <h1>GameSpark</h1>
+                <figure>
+                    <img id="mainImg" src="./img/Hero.png" alt="A cave in the game Elden Ring" title="Elden Ring cave"/>
+                    <figcaption><h1>GameSpark</h1></figcaption>
+                </figure>
             </section>
-            <article> <!-- &; TEKST VERANDEREN!!! -->
+            <article>
                 <p><h2>Welcome to <strong>GameSpark</strong></h2></p>
                 <p>In this website you can find game reviews to find new games to play&excl;</p>
                 <p>We have different genres of games for you to explore and view the reviews of these games&period; With this look into the game you can find out if you want to play these games&excl; This website has games from Call of Duty to Hades&period;</p>
@@ -72,11 +77,11 @@
                         </li>
                         <li>
                             <p>Sandbox</p>
-                            <p>Games that offer freedom to explore&comma; build&comma; experiment&comma; and create your own goals with minimal restrictions&period;</p>
+                            <p class="genre">Games that offer freedom to explore&comma; build&comma; experiment&comma; and create your own goals with minimal restrictions&period;</p>
                         </li>
                         <li>
                             <p>Roguelike</p>
-                            <p>Games featuring procedurally generated levels&comma; permanent death&comma; and replayability&comma; where each run offers a different experience&period;</p>
+                            <p class="genre">Games featuring procedurally generated levels&comma; permanent death&comma; and replayability&comma; where each run offers a different experience&period;</p>
                         </li>
                     </ul>
                 </p>
@@ -132,8 +137,10 @@
             </section>
         <footer>
             <p><em>&copy;2026 GameSpark.com</em></p>
-            <form action="contact.html" method="post"><a href="contact.html">Contact</a></form>
+            <a href="contact.html">Contact</a>
         </footer>
+
+        <p class="cookies">This website uses cookies</p>
         <!-- ook proberen om &....; te gebruiken, bij echt alle tekens zoals : '' "" en ? !, waarschijnlijk ook , en mis .-->
     </body>
 </html>

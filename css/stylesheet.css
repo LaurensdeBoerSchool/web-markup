@@ -27,11 +27,6 @@ html, body{
     
 }
 
-img{
-    width: 100px;
-    height: 100px;
-}
-
 h1,h2,h3{
     font-family: "Press Start 2P", system-ui;
 }
@@ -47,6 +42,10 @@ h2{
     color: #54A3F4;
     size: 1em;
     letter-spacing: 0.1em;
+}
+
+p::first-letter{
+    text-transform: uppercase;
 }
 
 
@@ -108,14 +107,14 @@ nav {
     height: 3em;
     border-style: solid;
     border-color: #0A101D;
-    border-width: 3px;
+    border-width: 0.15em;
 
     font-size: 1em;
     font-family: "Huninn", sans-serif;
     }
 
     img{
-        width: 267px;
+        width: 15em;
         height: 66px;
         position: absolute;
         top: 10px;
@@ -124,11 +123,12 @@ nav {
 
     a {
         display: block;
-        width: 7em;
+        width: 10em;
         padding: 0.4em 1.75em;
 
         background-color: #66C0F4;
         border: 3px solid #0A101D;
+        border-radius: 0.4em;
 
         text-decoration: none;
         color: #000000;
@@ -167,9 +167,9 @@ nav {
 }
 
 #hero{
-grid-area: heroTag;
-position:relative;
-width: 100%; 
+    grid-area: heroTag;
+    position:relative;
+    width: 100%; 
 
     #mainImg{
         width: 100%;
@@ -192,22 +192,38 @@ article{
     grid-area: articleTag;
 }
 
+article > h2{
+    line-height: 1.5em;
+}
+
+.art-text{
+    width: 40em;
+}
+
 aside{
     grid-area: asideTag;
     width: 90%;
     background-color: #2A475E;
     padding: 1em;
+    margin-top: 1em;
     color: #66C0F4;
 
     h3{
         color:#FFFFFF;
+        text-indent: 1em;
+        line-height: 0em;
+        text-transform: uppercase;
     }
     
+    .genre{
+        font-size: 0.8em;
+        word-spacing: 0.1em;
+    }
 }
 
 .reviews{
-    margin-top: 61px;
-    margin-bottom: 61px;
+    margin-top: 2em;
+    margin-bottom: 8em;
     grid-area: reviewTag;
 
     h2{
@@ -216,7 +232,8 @@ aside{
 
     section{
         color: #FFFFFF;
-        margin-top: 1em;
+        margin-top: 2em;
+        margin-bottom: 3em;
         display: grid;
         grid-template-columns: 500px 1fr;
         gap: 1em;
@@ -232,8 +249,6 @@ aside{
         article{
             grid-area: auto;
             min-width: 0;
-
-            
         }
 
         p{
@@ -246,10 +261,9 @@ aside{
     }
 
     form{
-        float: right;
-        margin-bottom: 7em;
-        clear: both;
-        
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 4em;
 
         button{
             background-color: #66C0F4;
@@ -267,6 +281,12 @@ aside{
             background-color:#316685;
         }
     }
+
+    .facts{
+        background-color: #2A475E;
+        color: #66C0F4;
+        padding: 0.5em;
+    }
 }
 
 
@@ -278,11 +298,38 @@ footer{
     grid-area: footerTag;
     text-align: center;
     color: #FFFFFF; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30em;
+    
+    a{
+        color: #FFFFFF;
+    }
+
+    a:active{
+        color: #757575;
+    }
+}
+
+.cookies{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #FFF;
+    padding: 0.6em 1em;
+    border-radius: 0.4em;
+    font-size: 0.7em;
+    z-index: 9999;
 }
 
 #form{ /*  border little weird it needs to work and uhhhhhhhh  */
     padding: 1em;
+    margin-bottom: 4em;
     background-color: #2A475E;
+    
 
     legend h2{
         color: #FFFFFF;
@@ -294,7 +341,7 @@ footer{
 
     input{
         display: block;
-        padding: 1em;
+        padding: 0.5em;
         background-color: #C7D5E0;
         margin:5px;
 
@@ -342,8 +389,15 @@ footer{
         /* question has to go top to bottom and not text in middle */
     }
 
-
-
+    
 }
+
+#form:nthchild(even){
+        color:#CFF;
+    }
+
+#form:nthchild(odd){
+        color:#FFF;
+    }
 
 

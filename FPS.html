@@ -2,7 +2,8 @@
 <html lang="en">
     <head> 
         <title>Assignment 3.2 | Inholland</title>
-        <meta name="test" description="Testing the meta" />
+        <meta charset="utf-8"/>
+        <meta name="Author" description="Laurens de Boer" />
         <link
             rel="stylesheet"
             type="text/css"
@@ -10,11 +11,11 @@
         />
         <link 
             rel="icon"
-            href="img/construction.png"
+            href="img/favicon.ico" 
             sizes="16x16"
-            type="image/png"
-        />
-        <!-- eigenlijk ogg voor audio -->
+            type="image/ico"
+        /> <!-- favicon als naam straks met .ico -->
+        <!-- ogg voor audio -->
     </head>
     <body class="grid-container">
         <header>
@@ -25,7 +26,7 @@
                     </li>
 
                     <li class="nav2">
-                        <a href="FPS.html">FPS</a>
+                        <a href="FPS.html">First Person Shooter</a>
                     </li>
 
                     <li class="nav3">
@@ -46,62 +47,64 @@
                 </ul>
             </nav>
         </header>
-            <article> <!-- &; TEKST VERANDEREN!!! -->
-                <p><h2>Welcome to Game Reviews&comma;</h2></p>
-                <p>In this website you can find game reviews to find new games to play&excl;</p>
-                <p>We have different genres of games for you to explore and view the reviews of these games&period; With this look into the game you can find out if you want to play these games&excl; This website has games from Call of Duty to Hades&period;</p>
-                <!--       <p>
-                            Current genres&colon;
-                            <ul>
-                                <li>
-                                    First Person Shooter (FPS)
-                                </li>
-                                    
-                                <li>
-                                    Metroidvania
-                                </li>
-
-                                <li>
-                                    Sandbox
-                                </li>
-
-                                <li>
-                                    Roguelike
-                                </li>
-                            </ul>
-                        </p>
-                    Probably aside now because of web design--> 
-                <p>Be sure to check these games out&excl; These games are a great way to learn and understand the genres to see if you&rsquo;re interested&period; </p>
+            <article class="art-text">
+                <p><h2>First&dash;person Shooter</h2></p>
+                <p>First Person Shooters are games where you look through the eyes of your character&period; In these games you have guns or bows and you have to shoot enemies&comma; often other players&period;</p>
+                <p>These games have different gamemodes&comma; such as&colon;</p>
+                <ul>
+                    <li>
+                        <p>A team game&period; You have to work together with your team to defeat the other team&period;</p>
+                    </li>
+                    <li>
+                        <p>Campaign&period; This is the story of the games&period; Not all First Person Games have a campaign&period; In this gamemode you often play solo and must fight NPC&rsquo;s &lpar;non&dash;player characters&rpar; to progress the story&period;</p>
+                    </li>
+                    <li>
+                        <p>Free For All&period; In this gamemode you fight against other players&comma; but you don&rsquo;t fight with a team&period; Instead you fight alone against all the other plays&comma; a free for all&period;</p>
+                    </li>
+                </ul>
+                <p>These games are action&dash;pact with a high skill ceiling&period;</p>
+                <p>Here is the list of FPS games&colon;</p>
             </article>
             <section class="reviews">
-                <form action="FPS.html" method="post"><button>FPS</button></form>
                 <section>
                     <img src="./img/CoD.png" alt="Call of Duty: Modern Warfare gameplay" title="CoD"/> 
-                    <h3>Call of Duty&colon; Modern Warfare</h3> <!-- ALLE TEKST NOG &; dingen maken -->
-                    <p>Call of Duty&colon; Modern Warfare is an amazing first-person shooter that redefines the series through amazing gunplay&comma; photorealistic graphics&comma; beautiful sound design&comma; and an intense&comma; memorable campaign&period; A true shooter masterpiece&period;</p>
+                    <article>
+                        <h3>Call of Duty&colon; Modern Warfare</h3>
+                        <p class="consoles">PC&comma; PS4 and Xbox One</p>
+                        <p>Call of Duty&colon; Modern Warfare is an amazing first-person shooter that redefines the series through amazing gunplay&comma; photorealistic graphics&comma; beautiful sound design&comma; and an intense&comma; memorable campaign&period; A true shooter masterpiece&period;</p>
+                        <p>I had an amazing time playing through the campaign and I keep playing the multiplayer for hours at a time&period; The multiplayer lacks a bit of balance&comma; but it is a fun game mode&period;</p>
+                        <p>I recommend this game to anyone who enjoys action&dash;heavy games&period;</p>
+                    </article>
                 </section>
-                <form action="Metroidvania.html" method="post"><button>Metroidvania</button></form>
+                <p class="facts">The first ever first&dash;person shooter was made in 1973 and was named&colon; Maze War&period; It was made by high school students Steve Colley&comma; Greg Thompson&comma; and Howard Palmer at the NASA Ames Research Center&period;</p>
                 <section>
-                    <img src="./img/HK.png" alt="Hollow Knight gameplay" title="Hollow Knight"/>
-                    <h3>Hollow Knight</h3> <!-- ALLE TEKST NOG &; dingen maken -->
-                    <p>Hollow Knight is a beautiful game with amazing sound design and an adorable art style&period; The movement feels great and it is very fun&period; This was my second ever Metroidvania i have played and completed&period;</p>
+                    <img src="./img/Valorant.png" alt="Valorant gameplay" title="Valorant"/>
+                    <article>
+                        <h3>Valorant</h3> 
+                        <p class="consoles">PC&comma; PS5 and Xbox Series X&VerticalLine;S</p>
+                        <p>Valorant is an amazing first-person shooter&period; It combines precise gunplay and with the agent abilities&period; This game requires a lot of teamwork&comma; strategy&comma; and good aim to win the rounds&period;</p>
+                        <p>The colorful art style and the large roster of agents make every match feel unique and interesting&period; Although the learning curve is very steep because of the precise gunplay and teamwork&comma; the competitive gameplay is very rewarding&period;</p>
+                        <p>Overall&comma; Valorant is a fun and replayable game that i would recommend to anyone searching for a refreshing FPS game&period;</p>
+                    </article>
                 </section>
-                <form action="Sandbox.html" method="post"><button>Sandbox</button></form>
+                <p class="facts">Battlezone &lpar;1980&rpar; was an arcade tank game that used vector graphics to render a 3D perspective&comma; making it the first commercially successful first&dash;person shooter&period;</p>
                 <section>
-                    <img src="./img/construction.jpg" alt="Construction worker stickfigure"/>
-                    <h3>Minecraft</h3> <!-- ALLE TEKST NOG &; dingen maken -->
-                    <p>Minecraft is an amazing sandbox survival game where you can express your creativity&period; With the simple but beautiful graphics&comma; the game offer endless possibilities for exploration or buidling&period;</p>
-                </section>
-                <form action="Roguelike.html" method="post"><button>Roguelike</button></form>
-                <section>
-                    <img src="./img/construction.jpg" alt="Construction worker stickfigure"/>
-                    <h3>Hades</h3> <!-- ALLE TEKST NOG &; dingen maken -->
-                    <p>Hades is an amazing rouglike action game with fast&hyphen;paced combat and a unique and beautiful art style&period; You play as the son of Hades&comma; Zagreus&comma; as you try to escape the Underworld&period;</p>
+                    <img src="./img/RSS.png" alt="Rainbow Six Siege gameplay" title="Rainbow Six Siege"/>
+                    <article>
+                    <h3>Rainbow Six Siege</h3> 
+                        <p class="consoles">PC&comma; PS and Xbox</p>
+                        <p>Rainbow Six Siege is an excellent first-person shooter that focuses on teamwork&comma; strategy&comma; and realistic gunplay&period; With destructible environments and a wide selection of operators make every match fun and interesting&period;</p>
+                        <p>The game rewards you for planning and communicating with your team&comma; creating intense and satisfying matches&period; Although the game can be difficult for beginners to learn&comma; master the mechanics is very rewarding&period;</p>
+                        <p>The game is a challenging but very enjoyable game that offers unique experiences compared to other shooters&period;</p>
+                    </article>
                 </section>
             </section>
         <footer>
-            &copy;2026
+            <p><em>&copy;2026 GameSpark.com</em></p>
+            <a href="contact.html">Contact</a>
         </footer>
+
+        <p class="cookies">This website uses cookies</p>
         <!-- ook proberen om &....; te gebruiken, bij echt alle tekens zoals : '' "" en ? !, waarschijnlijk ook , en mis .-->
     </body>
 </html>
