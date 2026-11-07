@@ -1,0 +1,10 @@
+Student name: Laurens de Boer
+Student number: 757989
+Student class: Inf1a
+GitHub Repository: https://github.com/LaurensdeBoerSchool/web-markup
+GitHub Pages URL: https://github.com/LaurensdeBoerSchool/web-markup/blob/main/index.html
+		  https://github.com/LaurensdeBoerSchool/web-markup/blob/main/FPS.html
+		  https://github.com/LaurensdeBoerSchool/web-markup/blob/main/Metroidvania.html
+		  https://github.com/LaurensdeBoerSchool/web-markup/blob/main/Sandbox.html
+		  https://github.com/LaurensdeBoerSchool/web-markup/blob/main/Roguelike.html
+		  https://github.com/LaurensdeBoerSchool/web-markup/blob/main/contact.html

@@ -339,6 +339,19 @@ footer{
         color: #FFFFFF;
     }
 
+    select{
+        display: block;
+        padding: 0.5em;
+        background-color: #C7D5E0;
+        margin:5px;
+
+        font-size: 1em;
+        font-family: "Huninn", sans-serif;
+
+
+        color:#0A101D;
+    }
+
     input{
         display: block;
         padding: 0.5em;
@@ -382,6 +395,21 @@ footer{
         width: 8em;
     }
 
+    textarea{
+        width: 40em;
+        height: 4em;
+
+        display: block;
+        padding: 0.5em;
+        background-color: #C7D5E0;
+        margin:5px;
+
+        font-size: 1em;
+        font-family: "Huninn", sans-serif;
+
+
+        color:#0A101D;
+    }
     #question{
         width: 40em;
         height: 4em;
