@@ -3,7 +3,7 @@
     <head> 
         <title>Contact page - GameSpark</title>
         <meta charset="utf-8"/>
-        <meta name="Author" description="Laurens de Boer" />
+        <meta name="Author" content="Laurens de Boer" />
         <meta name="keywords" content="Game,Review,GameSpark,Question,Contact"/>
         <link
             rel="stylesheet"
@@ -19,71 +19,96 @@
         <!-- eigenlijk ogg voor audio -->
     </head>
     <body class="grid-container-contact">
-        <header>
-            <nav>
-                <ul>
-                    <li class="nav1">
-                        <a href="index.html"><img src="img/Logo.png"/></a> <!-- nu nog tekst later foto <img src="logo.png" button= misschien -->
-                    </li>
+            <header>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li class="nav1">
+                            <a href="index.html"><img src="img/Logo.png" alt="GameSpark logo" title="GameSpark"/></a> <!-- nu nog tekst later foto <img src="logo.png" button= misschien -->
+                        </li>
 
-                    <li class="nav2">
-                        <a href="FPS.html">First Person Shooter</a>
-                    </li>
+                        <li class="nav2">
+                            <a href="FPS.html">First Person Shooter</a>
+                        </li>
 
-                    <li class="nav3">
-                        <a href="Metroidvania.html">Metroidvania</a>
-                    </li>
+                        <li class="nav3">
+                            <a href="Metroidvania.html">Metroidvania</a>
+                        </li>
 
-                    <li class="nav4">
-                        <a href="Sandbox.html">Sandbox</a>
-                    </li>
+                        <li class="nav4">
+                            <a href="Sandbox.html">Sandbox</a>
+                        </li>
 
-                    <li class="nav5">
-                        <a href="Roguelike.html">Roguelike</a>
-                    </li>
-                    
-                    <li class="nav6">
-                        <a href="contact.html" class="contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-       
-        <article>
-            <p><h2>Contact</h2></p>
-            <p>lorem ipsum blah blah blah geen andere consoles buiten pc, blah blah vul form in blah blah privacy geen uitdelen data en binnen 5 dagen antwoord</p>
-            <section id="form">
-                <form>
-                    <legend><h2>form:</h2></legend>
-                    
-                    <p><label for="sal">Salutation</label>
-                    <select id="sal" name="sal">
-                        <option value="Mr&period;">Mr&period;</option>
-                        <option value="Ms&period;">Ms&period;</option>
-                        <option value="None">None</option>
-                    </select></p><!-- SELECT FORGOT -->
+                        <li class="nav5">
+                            <a href="Roguelike.html">Roguelike</a>
+                        </li>
+                        
+                        <li class="nav6">
+                            <a href="contact.html" class="contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
 
-                    <p><label for="name">Name &ast;</label>
-                    <input type="text" id="name" name="name" placeholder="John Helldiver"> </p>
+                <section class="mobile-nav">
+                    <a href="index.html" class="home-button"><img src="img/m-Logo.png" alt="GameSpark logo" title="GameSpark"/></a>
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
 
-                    <p><label for="email">Email &ast;</label>
-                    <input type="email" id="email" name="email" placeholder="SweatLibertea&commat;gmail&period;com"> </p>
+                    <nav class="hamburger-menu">
+                        <ul>
+                            <li><a href="FPS.html">First Person Shooter</a></li>
+                            <li><a href="Metroidvania.html">Metroidvania</a></li>
+                            <li><a href="Sandbox.html">Sandbox</a></li>
+                            <li><a href="Roguelike.html">Roguelike</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </header>
+        
+            <article>
+                <h2>Contact</h2>
+                <p>This website is made to share my thoughts&comma; opinions&comma; and experiences on a variety of PC games&period;</p>
+                <p>Whether a game is PC&dash;exclusive or available on multiple platforms&comma; my reviews focus exclusively on the PC gaming experience&comma; so there won&rsquo;t be any console&dash;exclusive titles&period;</p>
+                <p>Feel free to fill out the form below with your questions or recommendations&period;</p>
+                <p>Your information will be kept safe and handled responsibly&period; Once you submit the form&comma; i will review your message and get in touch with you within 72 hours&period;</p>
+                <section id="form">
+                    <form>
+                        <fieldset>
+                            <legend><h2>form:</h2></legend>
+                        
+                            <p><label for="sal">Salutation</label>
+                            <select id="sal" name="sal">
+                                <option value="Mr&period;">Mr&period;</option>
+                                <option value="Ms&period;">Ms&period;</option>
+                                <option value="None">None</option>
+                            </select></p>
 
-                    <p><label for="phone">Phone number</label>
-                    <input type="text" id="phone" name="phone" placeholder="+31 6 12345678"> </p>
+                            <p><label for="name">Name &ast;</label>
+                            <input type="text" id="name" name="name" placeholder="John Helldiver"> </p>
 
-                    <p><label for question>Question&sol;Recommendation &lpar;max 150 words&rpar; &ast;</label>
-                    <textarea name="question" placeholder="Enter your question..."></textarea></p>
-                    <p><input type="submit" value="Submit"/></p>
-                </form>
-            </section>
-        </article>
-        <footer>
-            <p><em>&copy;2026 GameSpark.com</em></p>
-            <a href="contact.html">Contact</a>
-        </footer>
+                            <p><label for="email">Email &ast;</label>
+                            <input type="email" id="email" name="email" placeholder="SweatLibertea&commat;gmail&period;com"> </p>
 
-        <p class="cookies">This website uses cookies&period;</p>
-        <!-- ook proberen om &....; te gebruiken, bij echt alle tekens zoals : '' "" en ? !, waarschijnlijk ook , en mis .-->
+                            <p><label for="phone">Phone number</label>
+                            <input type="text" id="phone" name="phone" placeholder="+31 6 12345678"> </p>
+
+                            <p><label>Question&sol;Recommendation &lpar;max 150 words&rpar; &ast;</label>
+                            <textarea name="question" placeholder="Enter your question..." class="question"></textarea></p>
+                            <p><input type="submit" value="Submit"/></p>
+                        </fieldset>
+                    </form>
+                </section>
+            </article>
+            <footer>
+                <p><em>&copy;2026 GameSpark.com</em></p>
+                <a href="contact.html">Contact</a>
+            </footer>
+
+            <p class="cookies">This website uses cookies&period;</p>
+            <!-- ook proberen om &....; te gebruiken, bij echt alle tekens zoals : '' "" en ? !, waarschijnlijk ook , en mis .-->
     </body>
 </html>

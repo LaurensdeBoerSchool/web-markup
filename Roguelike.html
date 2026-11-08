@@ -3,7 +3,7 @@
     <head> 
         <title>Roguelike - GameSpark</title>
         <meta charset="utf-8"/>
-        <meta name="Author" description="Laurens de Boer" />
+        <meta name="Author" content="Laurens de Boer" />
         <meta name="description" content="This is a page about roguelike games. In this page you can find reviews about roguelikes to find new games to play."/>
         <meta name="keywords" content="Game,Review,GameSpark,Hades,SlaytheSpire,theBindingofIsaac:Reborn"/>
         <link
@@ -20,93 +20,160 @@
         <!-- ogg voor audio -->
     </head>
     <body class="grid-container">
-        <header>
-            <nav>
-                <ul>
-                    <li class="nav1">
-                        <a href="index.html"><img src="img/Logo.png"/></a> <!-- nu nog tekst later foto <img src="logo.png" button= misschien -->
-                    </li>
+            <header>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li class="nav1">
+                            <a href="index.html"><img src="img/Logo.png" alt="GameSpark logo" title="GameSpark"/></a> <!-- nu nog tekst later foto <img src="logo.png" button= misschien -->
+                        </li>
 
-                    <li class="nav2">
-                        <a href="FPS.html">First Person Shooter</a>
-                    </li>
+                        <li class="nav2">
+                            <a href="FPS.html">First Person Shooter</a>
+                        </li>
 
-                    <li class="nav3">
-                        <a href="Metroidvania.html">Metroidvania</a>
-                    </li>
+                        <li class="nav3">
+                            <a href="Metroidvania.html">Metroidvania</a>
+                        </li>
 
-                    <li class="nav4">
-                        <a href="Sandbox.html">Sandbox</a>
-                    </li>
+                        <li class="nav4">
+                            <a href="Sandbox.html">Sandbox</a>
+                        </li>
 
-                    <li class="nav5">
-                        <a href="Roguelike.html">Roguelike</a>
-                    </li>
-                    
-                    <li class="nav6">
-                        <a href="contact.html" class="contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-            <article class="art-text">
-                <p><h2>First&dash;person Shooter</h2></p>
-                <p>First Person Shooters are games where you look through the eyes of your character&period; In these games you have guns or bows and you have to shoot enemies&comma; often other players&period;</p>
-                <p>These games have different gamemodes&comma; such as&colon;</p>
-                <ul>
-                    <li>
-                        <p>A team game&period; You have to work together with your team to defeat the other team&period;</p>
-                    </li>
-                    <li>
-                        <p>Campaign&period; This is the story of the games&period; Not all First Person Games have a campaign&period; In this gamemode you often play solo and must fight NPC&rsquo;s &lpar;non&dash;player characters&rpar; to progress the story&period;</p>
-                    </li>
-                    <li>
-                        <p>Free For All&period; In this gamemode you fight against other players&comma; but you don&rsquo;t fight with a team&period; Instead you fight alone against all the other plays&comma; a free for all&period;</p>
-                    </li>
-                </ul>
-                <p>These games are action&dash;pact with a high skill ceiling&period;</p>
-                <p>Here is the list of FPS games&colon;</p>
-            </article>
-            <section class="reviews">
-                <section>
-                    <img src="./img/CoD.png" alt="Call of Duty: Modern Warfare gameplay" title="CoD"/> 
-                    <article>
-                        <h3>Call of Duty&colon; Modern Warfare</h3>
-                        <p class="consoles">PC&comma; PS4 and Xbox One</p>
-                        <p>Call of Duty&colon; Modern Warfare is an amazing first-person shooter that redefines the series through amazing gunplay&comma; photorealistic graphics&comma; beautiful sound design&comma; and an intense&comma; memorable campaign&period; A true shooter masterpiece&period;</p>
-                        <p>I had an amazing time playing through the campaign and I keep playing the multiplayer for hours at a time&period; The multiplayer lacks a bit of balance&comma; but it is a fun game mode&period;</p>
-                        <p>I recommend this game to anyone who enjoys action&dash;heavy games&period;</p>
-                    </article>
+                        <li class="nav5">
+                            <a href="Roguelike.html">Roguelike</a>
+                        </li>
+                        
+                        <li class="nav6">
+                            <a href="contact.html" class="contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="mobile-nav">
+                    <a href="index.html" class="home-button"><img src="img/m-Logo.png" alt="GameSpark logo" title="GameSpark"/></a>
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+                    <nav class="hamburger-menu">
+                        <ul>
+                            <li><a href="FPS.html">First Person Shooter</a></li>
+                            <li><a href="Metroidvania.html">Metroidvania</a></li>
+                            <li><a href="Sandbox.html">Sandbox</a></li>
+                            <li><a href="Roguelike.html">Roguelike</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
                 </section>
-                <p class="facts">The first ever first&dash;person shooter was made in 1973 and was named&colon; Maze War&period; It was made by high school students Steve Colley&comma; Greg Thompson&comma; and Howard Palmer at the NASA Ames Research Center&period;</p>
-                <section>
-                    <img src="./img/Valorant.png" alt="Valorant gameplay" title="Valorant"/>
-                    <article>
-                        <h3>Valorant</h3> 
-                        <p class="consoles">PC&comma; PS5 and Xbox Series X&VerticalLine;S</p>
-                        <p>Valorant is an amazing first-person shooter&period; It combines precise gunplay and with the agent abilities&period; This game requires a lot of teamwork&comma; strategy&comma; and good aim to win the rounds&period;</p>
-                        <p>The colorful art style and the large roster of agents make every match feel unique and interesting&period; Although the learning curve is very steep because of the precise gunplay and teamwork&comma; the competitive gameplay is very rewarding&period;</p>
-                        <p>Overall&comma; Valorant is a fun and replayable game that i would recommend to anyone searching for a refreshing FPS game&period;</p>
-                    </article>
+            </header>
+                <article class="art-text">
+                    <h2>Roguelike</h2>
+                    <p>Roguelikes are games where you have progress through rooms&comma; by fighting the mobs&comma; to earn resources to unlock new heroes&comma; weapons&comma; or abilities after you die&comma; you then use these upgrades to be able to progress further in the games&period; You also get upgrades throughout your run which are only with you until you die&period; This makes these games very replayable&comma; because every run has different upgrades&period; These games are often shown from top down&comma; but some are shown from the side&period;</p>
+                    <p>Roguelikes require a lot of attention and strategy in order to survive and progress&period; This can be quite difficult&period; So this genre is meant for people who enjoy hard games&period;</p>
+                    <p>Here is the list of roguelike games&colon;</p>
+                </article>
+                <section class="reviews">
+                    <section>
+                        <img src="./img/Hades.png" alt="Hades gameplay" title="Hades"/> 
+                        <article>
+                            <h3>Hades</h3>
+                            <p class="consoles">PC&comma; Nintendo Switch&comma; PS&comma; Xbox and mobile</p>
+                            <p>Hades is an amazing roguelike action game with fast&dash;paced combat and a unique and beautiful art style&period;</p>
+                            <p>You play as the son of Hades&comma; Zagreus&comma; as you try to escape the Underworld&period; The game offers a wide variety of weapons&comma; abilities&comma; and upgrades&comma; making every attempt unique&period; The story is also very interesting&comma; with fun characters and great voice acting&period;</p>
+                            <p>Although the game is pretty hard&comma; it&rsquo;s satisfying combat and rewarding progression makes every death feel worthwhile&period; Hades is an incredibly fun and smooth game&period; I recommend this game to anyone who enjoys action heavy games&period;</p>
+                        </article>
+                    </section>
+                    <p class="facts">The genre is named after a single game&period; The original Rogue was released in 1980 and inspired the name of the entire roguelike genre&period;</p>
+                    <section>
+                        <img src="./img/StS.png" alt="Slay the Spire gameplay" title="Slay the Spire"/>
+                        <article>
+                            <h3>Slay the Spire</h3> 
+                            <p class="consoles">PC&comma; Nintendo Switch&comma; PS4&comma; Xbox One and mobile</p>
+                            <p>Slay the Spire is an excellent roguelike deck-builder that combines strategy&comma; creativity and challenging fights&period; You climb a tower&comma; the spire&comma; while collecting cards&comma; relics&comma; and upgrades to build a strong deck&period; Every run is unique&comma; giving the game a lot of replayability&period;</p>
+                            <p>The different characters also offer unique playstyles&comma; making experimenting with strategies enjoyable&period; The game can be difficult at the beginning&comma; winning through careful planning and choosing the right cards and upgrades feels really rewarding&period;</p>
+                            <p>Slay the spire is a fantastic game for anyone who enjoys strategy and challenging gameplay&period;</p>
+                        </article>
+                    </section>
+                    <p class="facts">Roguelikes and roguelites aren&rsquo;t the same thing&period; The terms are often used interchangeably&comma; but roguelites usually feature permanent upgrades or progression between runs&period;</p>
+                    <section>
+                        <img src="./img/TBOI.png" alt="The Binding of Isaac&colon; Rebirth gameplay" title="The Binding of Isaac&colon; Rebirth"/>
+                        <article>
+                        <h3>The Binding of Isaac&colon; Rebirth</h3> 
+                            <p class="consoles">PC&comma; Nintendo Switch&comma; Wii U&comma; PS&comma; Xbox and mobile</p>
+                            <p>The Binding of Isaac&colon; Rebirth is an incredibly fun roguelike game with a dark atmosphere and a huge amount of variety&period; You explore randomly generated rooms&comma; fight enemies&comma; and collect hundreds of unique items that change your run&period;</p>
+                            <p>Every run is unique&comma; making the game replayable&period; Its challenging gameplay rewards experimentation and skill&comma; while discovering new items and secrets keeps you wanting to play more&period;</p>
+                            <p>Although the game can be difficult and confusing at first&comma; its depth and unique run make it a great roguelike&period; I recommend this game to anyone who enjoys an action heavy game&period;</p>
+                        </article>
+                    </section>
                 </section>
-                <p class="facts">Battlezone &lpar;1980&rpar; was an arcade tank game that used vector graphics to render a 3D perspective&comma; making it the first commercially successful first&dash;person shooter&period;</p>
-                <section>
-                    <img src="./img/RSS.png" alt="Rainbow Six Siege gameplay" title="Rainbow Six Siege"/>
-                    <article>
-                    <h3>Rainbow Six Siege</h3> 
-                        <p class="consoles">PC&comma; PS and Xbox</p>
-                        <p>Rainbow Six Siege is an excellent first-person shooter that focuses on teamwork&comma; strategy&comma; and realistic gunplay&period; With destructible environments and a wide selection of operators make every match fun and interesting&period;</p>
-                        <p>The game rewards you for planning and communicating with your team&comma; creating intense and satisfying matches&period; Although the game can be difficult for beginners to learn&comma; master the mechanics is very rewarding&period;</p>
-                        <p>The game is a challenging but very enjoyable game that offers unique experiences compared to other shooters&period;</p>
-                    </article>
+            <section class="mobile-page">
+                <section class="mobile-carousel">
+                    <input type="radio" name="fps-slide" id="slide1" checked>
+                    <input type="radio" name="fps-slide" id="slide2">
+                    <input type="radio" name="fps-slide" id="slide3">
+
+                    <section class="carousel">
+                        <section class="c-slide slide1">
+                            <img src="img/Hades.png" alt="Hades gameplay" title="Hades">
+                            <h3>Hades</h3>
+                            <p>Hades is an amazing roguelike action game with fast&dash;paced combat and a unique and beautiful art style&period;</p>
+                            <p>You play as the son of Hades&comma; Zagreus&comma; as you try to escape the Underworld&period; The game offers a wide variety of weapons&comma; abilities&comma; and upgrades&comma; making every attempt unique&period; The story is also very interesting&comma; with fun characters and great voice acting&period;</p>
+                            <p>Although the game is pretty hard&comma; it&rsquo;s satisfying combat and rewarding progression makes every death feel worthwhile&period; Hades is an incredibly fun and smooth game&period; I recommend this game to anyone who enjoys action heavy games&period;</p>
+                        </section>
+
+                        <section class="c-slide slide2">
+                            <img src="img/StS.png" alt="Slay the Spire gameplay" title="Slay the Spire">
+                            <h3>Slay the Spire</h3> 
+                            <p>Slay the Spire is an excellent roguelike deck-builder that combines strategy&comma; creativity and challenging fights&period; You climb a tower&comma; the spire&comma; while collecting cards&comma; relics&comma; and upgrades to build a strong deck&period; Every run is unique&comma; giving the game a lot of replayability&period;</p>
+                            <p>The different characters also offer unique playstyles&comma; making experimenting with strategies enjoyable&period; The game can be difficult at the beginning&comma; winning through careful planning and choosing the right cards and upgrades feels really rewarding&period;</p>
+                            <p>Slay the spire is a fantastic game for anyone who enjoys strategy and challenging gameplay&period;</p>
+                        </section>
+
+                        <section class="c-slide slide3">
+                            <img src="./img/TBOI.png" alt="The Binding of Isaac&colon; Rebirth gameplay" title="The Binding of Isaac&colon; Rebirth"/>
+                            <h3>The Binding of Isaac&colon; Rebirth</h3> 
+                            <p>The Binding of Isaac&colon; Rebirth is an incredibly fun roguelike game with a dark atmosphere and a huge amount of variety&period; You explore randomly generated rooms&comma; fight enemies&comma; and collect hundreds of unique items that change your run&period;</p>
+                            <p>Every run is unique&comma; making the game replayable&period; Its challenging gameplay rewards experimentation and skill&comma; while discovering new items and secrets keeps you wanting to play more&period;</p>
+                            <p>Although the game can be difficult and confusing at first&comma; its depth and unique run make it a great roguelike&period; I recommend this game to anyone who enjoys an action heavy game&period;</p>
+                        </section>
+                    </section>
+
+                    <section class="carousel-buttons">
+                        <label for="slide3" class="left left1"></label>
+                        <label for="slide1" class="left left2"></label>
+                        <label for="slide2" class="left left3"></label>
+
+                        <label for="slide2" class="right right1"></label>
+                        <label for="slide3" class="right right2"></label>
+                        <label for="slide1" class="right right3"></label>
+                    </section>
+                </section>
+
+                <section class="mobile-funfacts">
+                        <h2>Fun facts!</h2>
+                        <ul>
+
+                            <li>
+                                <p>Fun fact number 1&colon;</p>
+                                <p>The genre is named after a single game&period; The original Rogue was released in 1980 and inspired the name of the entire roguelike genre&period;</p>
+                            </li>
+
+                            <li>
+                                <p>Fun fact number 2&colon;</p>
+                                <p>Roguelikes and roguelites aren&rsquo;t the same thing&period; The terms are often used interchangeably&comma; but roguelites usually feature permanent upgrades or progression between runs&period;</p>
+                            </li>
+                        </ul>
                 </section>
             </section>
-        <footer>
-            <p><em>&copy;2026 GameSpark.com</em></p>
-            <a href="contact.html">Contact</a>
-        </footer>
+            <footer>
+                <p><em>&copy;2026 GameSpark.com</em></p>
+                <a href="contact.html">Contact</a>
+            </footer>
 
-        <p class="cookies">This website uses cookies</p>
-        <!-- ook proberen om &....; te gebruiken, bij echt alle tekens zoals : '' "" en ? !, waarschijnlijk ook , en mis .-->
+            <p class="cookies">This website uses cookies</p>
+            <!-- ook proberen om &....; te gebruiken, bij echt alle tekens zoals : '' "" en ? !, waarschijnlijk ook , en mis .-->
     </body>
 </html>
