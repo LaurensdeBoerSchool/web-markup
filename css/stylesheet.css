@@ -10,7 +10,7 @@
 
 
 
-@media screen and (max-width: 719px){
+@media screen and (max-width: 768px){
     html, body{
         background-color: #1B2838;
         margin: 0;
@@ -605,7 +605,7 @@
 
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 769px){
     .desktop-nav{
         display: block;
     }
